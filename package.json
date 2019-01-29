@@ -1,0 +1,26 @@
+{
+  "name": "shrt-cli",
+  "bin": {
+    "shrt": "dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  },
+  "dependencies": {
+    "clipboardy": "^1.2.3",
+    "ink": "^0.5.1",
+    "ink-link": "^0.2.0",
+    "ink-spinner": "^2.0.0",
+    "ink-text-input": "^2.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "meow": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "babel-node src/index.js",
+    "build": "babel src --out-dir dist",
+    "test": "echo 'No tests'"
+  }
+}
