@@ -4,7 +4,7 @@
 
 URL shortening cli
 
-[Demo animation](media/demo.gif)
+[Demo animation](media/demo.gif 'Demo animation')
 
 ```
 $ npm install -g shrt-url
