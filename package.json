@@ -1,6 +1,13 @@
 {
   "version": "0.0.1",
-  "name": "shrt-cli",
+  "name": "shrt-url",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/c0z0/shrt-cli.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/c0z0/shrt-cli",
+  "bugs": {"url": "https://github.com/c0z0/shrt-cli"},
   "bin": {
     "shrt": "dist/index.js"
   },
