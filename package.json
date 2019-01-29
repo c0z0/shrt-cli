@@ -27,6 +27,7 @@
     "meow": "^5.0.0"
   },
   "scripts": {
+    "install": "babel src --out-dir dist",
     "dev": "babel-node src/index.js",
     "build": "babel src --out-dir dist",
     "test": "echo 'No tests'"
