@@ -24,7 +24,8 @@
     "ink-spinner": "^2.0.0",
     "ink-text-input": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
-    "meow": "^5.0.0"
+    "meow": "^5.0.0",
+    "update-notifier": "^2.5.0"
   },
   "scripts": {
     "install": "babel src --out-dir dist",

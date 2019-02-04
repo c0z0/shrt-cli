@@ -3,6 +3,10 @@
 const {h, render, renderToString} = require('ink')
 const meow = require('meow')
 const clipboardy = require('clipboardy')
+const updateNotifier = require('update-notifier')
+const pkg = require('../package.json')
+
+updateNotifier({pkg}).notify()
 
 const App = require('./app')
 const {isURL} = require('./utils')
