@@ -90,7 +90,7 @@ class App extends Component {
   }
 }
 
-App.Error = message => (
+App.Error = ({message}) => (
   <div>
     <Color bgHex="#f00">ERROR</Color> <Color red>{message}</Color>
   </div>
